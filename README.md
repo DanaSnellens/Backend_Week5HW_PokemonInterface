@@ -106,3 +106,5 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 ## Tip
 
 Let goed op welke tips en advies IntelliJ je geeft!
+#   B a c k e n d _ W e e k 5 H W _ P o k e m o n I n t e r f a c e  
+ 
