@@ -1,24 +1,14 @@
 import java.util.List;
 
-public class PokemonGymOwner {
-    String Name;
-    String Town;
-    List<Pokemon> pokemons;
-    public PokemonGymOwner(String Name, String Town, List<Pokemon> pokemons) {
-        this.Name = Name;
-        this.Town = Town;
-        this.pokemons = pokemons;
-    }
+public class PokemonGymOwner extends PokemonTrainer {
 
-    public String getName() {
-        return Name;
-    }
+    private final String town;
 
+    public PokemonGymOwner(String name, String town, List<Pokemon> pokemons) {
+        super(name, pokemons);
+        this.town = town;
+    }
     public String getTown() {
-        return Town;
-    }
-
-    public List<Pokemon> getPokemons() {
-        return pokemons;
+        return town;
     }
 }
